@@ -21,7 +21,6 @@
   "homepage": "https://github.com/ibrahimfevzi/fsweb-s13g4-node-api-project-4#readme",
   "devDependencies": {
     "eslint": "^8.40.0",
-    "eslint-plugin-react": "^7.32.2",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
