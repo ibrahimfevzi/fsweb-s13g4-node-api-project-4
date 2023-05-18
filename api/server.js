@@ -16,7 +16,7 @@ server.post("/api/kayitol", (req, res) => {
   const newUser = req.body;
   if (newUser.kullaniciadi && newUser.sifre) {
     users.users.push(newUser);
-    res.status(201).json(users.users);
+    res.status(201).json(newUser);
   } else {
     res.status(400).json({ message: "Lütfen kullanıcı adı ve şifre girin" });
   }
